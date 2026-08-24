@@ -210,7 +210,6 @@ h2 {
 }
 
 .timeline,
-.updates,
 .publications {
   margin: 0;
   padding: 0;
@@ -235,26 +234,11 @@ h2 {
 }
 
 .timeline span,
-.updates li,
 .publications p,
 footer {
   color: var(--muted);
 }
 
-.updates {
-  display: grid;
-  gap: 0.8rem;
-}
-
-.updates li {
-  display: grid;
-  grid-template-columns: 7.5rem 1fr;
-  gap: 1rem;
-  padding: 0.9rem 0;
-  border-bottom: 1px solid rgba(217, 225, 221, 0.7);
-}
-
-.updates time,
 .pub-year {
   color: var(--green);
   font-weight: 800;
@@ -347,7 +331,6 @@ footer p {
     font-size: 2.25rem;
   }
 
-  .updates li,
   .publications li {
     grid-template-columns: 1fr;
     gap: 0.3rem;
