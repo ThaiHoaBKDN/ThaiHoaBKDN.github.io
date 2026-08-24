@@ -138,13 +138,6 @@ h2 {
   font-size: 1.08rem;
 }
 
-.quick-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.7rem;
-}
-
-.quick-links a,
 .button {
   display: inline-flex;
   align-items: center;
@@ -160,7 +153,6 @@ h2 {
   box-shadow: 0 8px 20px rgba(22, 43, 36, 0.05);
 }
 
-.quick-links a:hover,
 .button:hover {
   border-color: rgba(184, 79, 67, 0.42);
   color: var(--coral);
