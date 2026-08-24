@@ -24,7 +24,7 @@ GitHub rebuilds and republishes within a minute or two.
 
 ## Update later
 
-- Replace the profile initials with a real portrait if desired.
+- Swap `hoa.jpg` for a different portrait if desired (keep the same filename, or update `index.html`).
 - Add an email address only if you want it public.
 - Update the publication list from ORCID when new works are added.
 
