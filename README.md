@@ -22,6 +22,10 @@ git push
 
 GitHub rebuilds and republishes within a minute or two.
 
+If you change `styles.css`, bump the version number in the `index.html`
+stylesheet link (`styles.css?v=2` -> `?v=3`). Browsers cache the stylesheet
+for 10 minutes, and this forces them to fetch the new one right away.
+
 ## Update later
 
 - Swap `hoa.jpg` for a different portrait if desired (keep the same filename, or update `index.html`).
