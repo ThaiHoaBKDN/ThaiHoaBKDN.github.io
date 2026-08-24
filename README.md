@@ -23,7 +23,7 @@ git push
 GitHub rebuilds and republishes within a minute or two.
 
 If you change `styles.css`, bump the version number in the `index.html`
-stylesheet link (`styles.css?v=6` -> `?v=7`). Browsers cache the stylesheet
+stylesheet link (`styles.css?v=7` -> `?v=8`). Browsers cache the stylesheet
 for 10 minutes, and this forces them to fetch the new one right away.
 
 ## Update later
