@@ -270,6 +270,12 @@ footer {
   font-weight: 750;
 }
 
+.pub-authors {
+  display: block;
+  margin: 0.4rem 0 0.3rem;
+  font-size: 0.92rem;
+}
+
 .publications em {
   color: #344943;
   font-style: italic;
