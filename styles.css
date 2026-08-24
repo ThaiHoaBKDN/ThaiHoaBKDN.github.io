@@ -98,10 +98,10 @@ main {
 
 .portrait {
   width: 11rem;
-  height: 11rem;
+  aspect-ratio: 413 / 531;
   overflow: hidden;
   border: 1px solid var(--line);
-  border-radius: 50%;
+  border-radius: 0.9rem;
   background: var(--green);
   box-shadow: var(--shadow);
 }
@@ -336,8 +336,7 @@ footer p {
   }
 
   .portrait {
-    width: 8.5rem;
-    height: 8.5rem;
+    width: 9.5rem;
   }
 
   h1 {
